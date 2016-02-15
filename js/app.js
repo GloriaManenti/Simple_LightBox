@@ -18,4 +18,7 @@ $overlay.show();
  	//an image
  	// a caption
 // when overlay is clicked 
+$overlay.click(function(){
+$(this).hide();
+})
  	//hide the overaly
